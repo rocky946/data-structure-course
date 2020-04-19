@@ -51,5 +51,3 @@ add_executable(2_16 linked_list.h linked_list.cpp
         ordered_linked_list.h ordered_linked_list.cpp algorithm2_16.cpp)
 add_executable(2_17 array_list.h array_list.cpp ordered_array_list.h
         ordered_array_list.cpp algorithm2_17.cpp)
-
-add_executable(test_git test_git.cpp)
