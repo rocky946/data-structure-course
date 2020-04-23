@@ -11,3 +11,4 @@ add_executable(3_exp1 sq_stack.h sq_stack.cpp 3_exp1.cpp)
 
 # 链栈
 add_executable(test_linked_stack linked_stack.h linked_stack.cpp test_linked_stack.cpp)
+add_executable(3_5 linked_stack.h linked_stack.cpp 3_5.cpp)
