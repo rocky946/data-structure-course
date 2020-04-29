@@ -3,8 +3,18 @@
 
 #define MAX_SIZE 50
 
-typedef char ElemType;
+// 方块类型
+typedef struct {
+    // 当前方块的行号
+    int i;
+    // 当前方块的列好
+    int j;
+    // 下一相邻可走方位的方位号
+    int di;
+} Box;
 
+typedef Box ElemType;
+//typedef char ElemType;
 
 // 顺序栈类型
 typedef struct {
