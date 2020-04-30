@@ -14,3 +14,6 @@ add_executable(mg_path sq_stack.h sq_stack.cpp mg_path.cpp)
 # 链栈
 add_executable(test_linked_stack linked_stack.h linked_stack.cpp test_linked_stack.cpp)
 add_executable(3_5 linked_stack.h linked_stack.cpp 3_5.cpp)
+
+# 队列
+add_executable(test_sq_queue sq_queue.h sq_queue.cpp test_sq_queue.cpp)
