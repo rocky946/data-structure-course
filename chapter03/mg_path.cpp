@@ -117,7 +117,7 @@ bool MgPath(int xi, int yi, int xe, int ye) {
             // 将(i1, j1)迷宫值置为-1，避免重复走到该方块
             mg[i1][j1] = -1;
         }
-            // 没有路径可走，退栈
+        // 没有路径可走，退栈
         else {
             Pop(stack, e);
             // 让退栈方块的位置变为其他路径可走方块
