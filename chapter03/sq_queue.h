@@ -3,14 +3,24 @@
 
 #define MAX_SIZE 50
 
-typedef char ElemType;
+// 方块类型
+typedef struct {
+    // 当前方块的行号
+    int i;
+    // 当前方块的列号
+    int j;
+    // 本路径中上一个方块在队列中的下标
+    int pre;
+} Box;
+
+typedef Box ElemType;
+//typedef char ElemType;
 
 // 顺序队类型
 typedef struct {
     ElemType data[MAX_SIZE];
     // 队头和队尾指针
     int front, rear;
-    
 } SqQueue;
 
 /**

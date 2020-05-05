@@ -17,6 +17,7 @@ add_executable(3_5 linked_stack.h linked_stack.cpp 3_5.cpp)
 
 # 顺序队
 add_executable(test_sq_queue sq_queue.h sq_queue.cpp test_sq_queue.cpp)
+add_executable(mg_path1 sq_queue.h sq_queue.cpp mg_path1.cpp)
 # 环形队列
 add_executable(test_sq_queue_c sq_queue.h sq_queue_c.cpp test_sq_queue_c.cpp)
 add_executable(3_7 sq_queue_c1.h sq_queue_c1.cpp 3_7.cpp)
