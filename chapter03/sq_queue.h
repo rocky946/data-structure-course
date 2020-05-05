@@ -13,8 +13,8 @@ typedef struct {
     int pre;
 } Box;
 
-typedef Box ElemType;
-//typedef char ElemType;
+//typedef Box ElemType;
+typedef char ElemType;
 
 // 顺序队类型
 typedef struct {
