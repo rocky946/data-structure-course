@@ -7,7 +7,7 @@
 typedef struct {
     // 当前方块的行号
     int i;
-    // 当前方块的列好
+    // 当前方块的列号
     int j;
     // 下一相邻可走方位的方位号
     int di;
