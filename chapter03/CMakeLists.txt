@@ -23,3 +23,4 @@ add_executable(3_7 sq_quque_c1.h sq_quque_c1.cpp 3_7.cpp)
 
 # 链队
 add_executable(test_linked_queue linked_queue.h linked_queue.cpp test_linked_queue.cpp)
+add_executable(3_8 3_8.cpp)
