@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "sq_quque_c1.h"
+#include "sq_queue_c1.h"
 
 int main() {
     QuType *queue = nullptr;

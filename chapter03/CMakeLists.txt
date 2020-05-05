@@ -19,7 +19,8 @@ add_executable(3_5 linked_stack.h linked_stack.cpp 3_5.cpp)
 add_executable(test_sq_queue sq_queue.h sq_queue.cpp test_sq_queue.cpp)
 # 环形队列
 add_executable(test_sq_queue_c sq_queue.h sq_queue_c.cpp test_sq_queue_c.cpp)
-add_executable(3_7 sq_quque_c1.h sq_quque_c1.cpp 3_7.cpp)
+add_executable(3_7 sq_queue_c1.h sq_queue_c1.cpp 3_7.cpp)
+add_executable(number sq_queue.h sq_queue_c.cpp number.cpp)
 
 # 链队
 add_executable(test_linked_queue linked_queue.h linked_queue.cpp test_linked_queue.cpp)

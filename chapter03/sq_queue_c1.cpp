@@ -1,7 +1,7 @@
 // 顺序队列(环形队列，例3.7)
 #include <stdio.h>
 #include <malloc.h>
-#include "sq_quque_c1.h"
+#include "sq_queue_c1.h"
 
 void InitQueue(QuType *&queue) {
     queue = (QuType *) malloc(sizeof(QuType));

@@ -1,5 +1,5 @@
-#ifndef CHAPTER03_SQ_QUQUE_C1_H
-#define CHAPTER03_SQ_QUQUE_C1_H
+#ifndef CHAPTER03_SQ_QUEUE_C1_H
+#define CHAPTER03_SQ_QUEUE_C1_H
 
 #define MAX_SIZE 50
 
@@ -49,4 +49,4 @@ bool enQueue(QuType *&queue, ElemType e);
  */
 bool deQueue(QuType *&queue, ElemType &e);
 
-#endif //CHAPTER03_SQ_QUQUE_C1_H
+#endif //CHAPTER03_SQ_QUEUE_C1_H
