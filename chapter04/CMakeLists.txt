@@ -7,6 +7,8 @@ set(CMAKE_CXX_STANDARD 14)
 add_executable(test_sq_string sq_string.h sq_string.cpp test_sq_string.cpp)
 add_executable(4_1 sq_string.h sq_string.cpp 4_1.cpp)
 add_executable(4_2 sq_string.h sq_string.cpp 4_2.cpp)
+add_executable(bf sq_string.h sq_string.cpp bf.cpp)
+add_executable(bf_count sq_string.h sq_string.cpp bf_count.cpp)
 
 # 链串
 add_executable(test_linked_string linked_string.h linked_string.cpp test_linked_string.cpp)
