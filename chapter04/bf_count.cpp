@@ -18,6 +18,7 @@ int BF(SqString s, SqString t) {
 
         if (j == t.length) {
             count++;
+            j = 0;
         }
     }
 
