@@ -9,6 +9,8 @@ add_executable(4_1 sq_string.h sq_string.cpp 4_1.cpp)
 add_executable(4_2 sq_string.h sq_string.cpp 4_2.cpp)
 add_executable(bf sq_string.h sq_string.cpp bf.cpp)
 add_executable(bf_count sq_string.h sq_string.cpp bf_count.cpp)
+add_executable(KMP1 sq_string.h sq_string.cpp KMP1.cpp)
+add_executable(KMP2 sq_string.h sq_string.cpp KMP2.cpp)
 
 # 链串
 add_executable(test_linked_string linked_string.h linked_string.cpp test_linked_string.cpp)
