@@ -19,7 +19,9 @@ int main() {
     CreateLinkedListR(list, a, n);
     DispList(list);
 
-    Release(list);
+    Release(list->next);
+    // 释放头结点
+    free(list);
 
     return 0;
 }
