@@ -6,7 +6,7 @@ int main() {
     GLNode *g = CreateGL(s);
     printf("disp: ");
     DispGL(g);
-    printf("\n")
+    printf("\n");
     printf("len: %d\n", GLLength(g));
     printf("depth: %d\n", GLDepth(g));
     DestroyGL(g);
