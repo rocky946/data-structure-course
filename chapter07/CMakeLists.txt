@@ -13,3 +13,6 @@ add_executable(7_15 b_tree.h b_tree.cpp 7_15.cpp)
 add_executable(7_16 b_tree.h b_tree.cpp 7_16.cpp)
 add_executable(non_recu_order b_tree.h b_tree.cpp sq_stack.h sq_stack.cpp non_recu_order.cpp)
 add_executable(7_17 b_tree.h b_tree.cpp sq_stack.h sq_stack.cpp 7_17.cpp)
+
+add_executable(level_order b_tree.h b_tree.cpp level_order.cpp)
+add_executable(7_18 b_tree.h b_tree.cpp 7_18.cpp)
