@@ -31,10 +31,10 @@ bool QueueEmpty(SqQueue *queue) {
 
 bool enQueue(SqQueue *&queue, Sq_ElemType e) {
     // 队满上溢出
-    if ((queue->rear + 1) % MAX_SIZE == queue->front) {
+    if ((queue->rear + 1) % SQ_MAX_SIZE == queue->front) {
         return false;
     } else {
-        queue->rear = (queue->rear + 1) % MAX_SIZE;
+        queue->rear = (queue->rear + 1) % SQ_MAX_SIZE;
         queue->data[queue->rear] = e;
     }
 
@@ -46,7 +46,7 @@ bool deQueue(SqQueue *&queue, Sq_ElemType &e) {
     if (queue->front == queue->rear) {
         return false;
     } else {
-        queue->front = (queue->front + 1) % MAX_SIZE;
+        queue->front = (queue->front + 1) % SQ_MAX_SIZE;
         e = queue->data[queue->front];
     }
 
