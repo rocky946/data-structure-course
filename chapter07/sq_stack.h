@@ -3,14 +3,14 @@
 
 #include "b_tree.h"
 
-#define S_MAX_SIZE 50
+#define ST_MAX_SIZE 50
 
 typedef BTNode *St_ElemType;
 
 // 顺序栈类型
 typedef struct {
     // 存放栈中的数据元素
-    St_ElemType data[S_MAX_SIZE];
+    St_ElemType data[ST_MAX_SIZE];
     // 栈顶指针，即存放栈顶元素在data数组中的下标
     int top;
 } SqStack;

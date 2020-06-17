@@ -18,7 +18,7 @@ bool StackEmpty(SqStack *stack) {
 
 bool Push(SqStack *&stack, St_ElemType e) {
     // 栈满，即栈上溢出
-    if (stack->top == MAX_SIZE-1) {
+    if (stack->top == ST_MAX_SIZE-1) {
         return false;
     }
 
