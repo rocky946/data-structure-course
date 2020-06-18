@@ -5,7 +5,7 @@
 
 typedef ElemType SqBTree[MAX_SIZE];
 
-BTNode *trans(SqBTree a, int i) {
+BTNode *trans1(SqBTree a, int i) {
     BTNode *b;
     if (i > MAX_SIZE) {
         return nullptr;
@@ -29,7 +29,7 @@ BTNode *trans(SqBTree a, int i) {
 
 int main() {
     ElemType a[] = "0ABCD#EF##G####################";
-    BTNode *b = trans(a, 1);
+    BTNode *b = trans1(a, 1);
     printf("b: ");
     DisplayBTree(b);
     printf("\n");
