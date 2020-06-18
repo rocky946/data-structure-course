@@ -25,3 +25,5 @@ add_executable(trans2 b_tree.h b_tree.cpp trans2.cpp)
 add_executable(thread_b_tree thread_b_tree.cpp)
 
 add_executable(huffman huffman.cpp)
+
+add_executable(ufs union_find_set.cpp)
