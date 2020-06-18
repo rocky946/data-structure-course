@@ -20,9 +20,9 @@ BTNode *trans1(SqBTree a, int i) {
     b = (BTNode *) malloc(sizeof(BTNode));
     b->data = a[i];
     // 递归创建左子树
-    b->lchild = trans(a, 2 * i);
+    b->lchild = trans1(a, 2 * i);
     // 递归创建右子树
-    b->rchild = trans(a, 2 * i + 1);
+    b->rchild = trans1(a, 2 * i + 1);
 
     return b;
 }
