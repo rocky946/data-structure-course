@@ -17,3 +17,7 @@ add_executable(7_17 b_tree.h b_tree.cpp sq_stack.h sq_stack.cpp 7_17.cpp)
 add_executable(level_order b_tree.h b_tree.cpp level_order.cpp)
 add_executable(7_18 b_tree.h b_tree.cpp 7_18.cpp)
 add_executable(every_level_disp b_tree.h b_tree.cpp every_level_disp.cpp)
+
+add_executable(create_b_tree b_tree.h b_tree.cpp create_b_tree.cpp)
+add_executable(7_19 b_tree.h b_tree.cpp 7_19.cpp)
+add_executable(trans2 b_tree.h b_tree.cpp trans2.cpp)
