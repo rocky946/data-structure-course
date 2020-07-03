@@ -16,3 +16,6 @@ add_executable(8_5 adj_graph.h adj_graph.cpp 8_5.cpp)
 add_executable(8_6 adj_graph.h adj_graph.cpp 8_6.cpp)
 add_executable(8_7 adj_graph.h adj_graph.cpp 8_7.cpp)
 add_executable(8_8 adj_graph.h adj_graph.cpp 8_8.cpp)
+
+add_executable(8_9 adj_graph.h adj_graph.cpp 8_9.cpp)
+add_executable(8_10 adj_graph.h adj_graph.cpp sq_queue.h sq_queue_c.cpp 8_10.cpp)
