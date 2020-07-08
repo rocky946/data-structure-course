@@ -19,3 +19,6 @@ add_executable(8_8 adj_graph.h adj_graph.cpp 8_8.cpp)
 
 add_executable(8_9 adj_graph.h adj_graph.cpp 8_9.cpp)
 add_executable(8_10 adj_graph.h adj_graph.cpp sq_queue.h sq_queue_c.cpp 8_10.cpp)
+
+add_executable(prim mat_graph.h mat_graph.cpp prim.cpp)
+add_executable(kruskal mat_graph.h mat_graph.cpp kruskal.cpp)
