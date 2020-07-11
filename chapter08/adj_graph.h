@@ -23,6 +23,10 @@ typedef struct ANode {
 typedef struct Vnode {
     // 顶点信息
     InfoType info;
+
+    // 数据域：存放顶点入度
+    int count;
+
     // 指向第一个边结点
     ArcNode *firstarc;
 } VNode;

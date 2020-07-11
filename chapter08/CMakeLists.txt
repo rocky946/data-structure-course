@@ -22,3 +22,8 @@ add_executable(8_10 adj_graph.h adj_graph.cpp sq_queue.h sq_queue_c.cpp 8_10.cpp
 
 add_executable(prim mat_graph.h mat_graph.cpp prim.cpp)
 add_executable(kruskal mat_graph.h mat_graph.cpp kruskal.cpp)
+
+add_executable(dijkstra mat_graph.h mat_graph.cpp dijkstra.cpp)
+add_executable(floyd mat_graph.h mat_graph.cpp floyd.cpp)
+
+add_executable(top_sort adj_graph.h adj_graph.cpp top_sort.cpp)
