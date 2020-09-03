@@ -11,6 +11,7 @@ add_executable(test_bst bst.h bst.cpp test_bst.cpp)
 add_executable(9_4 bst.h bst.cpp 9_4.cpp)
 
 add_executable(test_hash_open hash_open.h hash_open.cpp test_hash_open.cpp)
+add_executable(test_hash_chain hash_chain.h hash_chain.cpp test_hash_chain.cpp)
 
 
 
