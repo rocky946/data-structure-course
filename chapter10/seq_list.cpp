@@ -22,7 +22,7 @@ void swap(RecType &x, RecType &y) {
 
 void CreateList1(RecType R[], KeyType keys[], int n) {
     for (int i = 1; i <= n; ++i) {
-        R[i].key = keys[i];
+        R[i].key = keys[i - 1];
     }
 }
 
