@@ -68,7 +68,7 @@ void Dijkstra(MatGraph g, int v) {
         S[i] = 0;
         // 路径初始化
         if (g.edges[v][i] < INF) {
-            // 顶点v到顶点i右边时，置顶点i的前一个顶点为v
+            // 顶点v到顶点i有边时，置顶点i的前一个顶点为v
             path[i] = v;
         }
         // 顶点v到顶点i没边时，置顶点i的前一个顶点未-1
