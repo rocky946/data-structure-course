@@ -71,7 +71,7 @@ void Dijkstra(MatGraph g, int v) {
             // 顶点v到顶点i有边时，置顶点i的前一个顶点为v
             path[i] = v;
         }
-        // 顶点v到顶点i没边时，置顶点i的前一个顶点未-1
+        // 顶点v到顶点i没边时，置顶点i的前一个顶点为-1
         else {
             path[i] = -1;
         }
